@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blackjack</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>Blackjack</header>
+  <section class="controles">
+    <article class="botonera">
+      <button id="btnNuevo" class="begin">Nuevo juego</button>
+      <button id="btnPedirCarta">Pedir carta</button>
+      <button id="btnDetener">Detener</button>
+    </article>
+  </section>
+
+  <main>
+    <section class="col">
+      <h1> Jugador 1 - <small>0</small>
+      <article id="Jugador-cartas">
+        <!-- <img class='card' src="assets/cartas/2D.png"/> -->
+      </article>
+    </section>
+    <section class="col">
+      <h1> Computador - <small>0</small></h1>
+      <article id="Computadora-cartas">
+        <img class='card' src="assets/cartas/2D.png"/>
+        </article>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.6/underscore-umd-min.js"></script>
+  <script src="assets/js/juego.js"></script>
+</body>
+</html>
